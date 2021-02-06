@@ -1,7 +1,7 @@
 {
   "name": "snowtail",
   "version": "0.0.1",
-  "description": "Starter for Rapid Theme Dev, using Snowpack & Tailwind CSS.",
+  "description": "Snowtail is a starter template made using Snowpack & Tailwind, that can help speed up the theme development process.",
   "demo": "https://www.abhijit-kar.com/snowtail/",
   "main": "index.js",
   "scripts": {

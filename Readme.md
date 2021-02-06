@@ -1,5 +1,5 @@
 # SnowTail
-This post is about SnowTail, a starter template made using [Snowpack](https://www.snowpack.dev/) & [Tailwind](http://tailwindcss.com/), that can help speed up the theme development process.
+Snowtail is a starter template made using [Snowpack](https://www.snowpack.dev/) & [Tailwind](http://tailwindcss.com/), that can help speed up the theme development process.
 
 ## Blog Post:
 [SnowTail: Snowpack & Tailwind Starter to Speed up Theme Dev](https://www.derpycoder.com/snowtail-snowpack-tailwind-starter-to-speed-up-theme-dev/)

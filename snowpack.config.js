@@ -1,13 +1,13 @@
 // Snowpack Configuration File
 // See all supported options: https://www.snowpack.dev/reference/configuration
 
-// import ("snowpack").SnowpackUserConfig
+/** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
   mount: {},
   plugins: [],
   packageOptions: {},
   devOptions: {},
   buildOptions: {
-    metaUrlPath: 'snowpack'
+    metaUrlPath: 'snowpack' // Necessary to make the site work with GitHub Pages!
   },
 };

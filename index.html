@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Theme development starter, using Snowpack & Tailwind, meant to speed up theme development in initial stage." />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link href="./tailwind.css" rel="stylesheet">
+    <title>SnowTail: Theme Development Starter Template</title>
+</head>
+
+<body class="
+    min-h-screen flex flex-col justify-center items-center text-center
+    bg-gradient-to-br from-green-400 to-blue-500
+    dark:bg-gradient-to-br dark:from-red-400 dark:to-blue-500
+    ">
+
+    <a href="https://github.com/abhijit-kar/snowtail"
+        style="position: fixed; top: 0; right: 0; border: 0; z-index: 9999; width: 149px; height: 149px;">
+        <img loading="lazy" width="149" height="149"
+            src="https://github.blog/wp-content/uploads/2008/12/forkme_right_white_ffffff.png?resize=149%2C149"
+            class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1">
+    </a>
+
+    <header class="mb-10">
+        <h1 class="text-4xl font-bold text-white">SnowTail</h1>
+    </header>
+
+    <main class="bg-white p-8 mb-10 rounded-lg shadow-2xl">
+        <section class="test mb-10">
+            <h3 class="font-bold text-2xl">Theme Dev Starter</h3>
+            <p class="text-gray-600 pt-2">
+                <a href="https://www.snowpack.dev/" class="hover:underline">Snowpack</a>
+                +
+                <a href="https://tailwindcss.com/" class="hover:underline">Tailwind</a>
+                =
+                <span class="text-red-600">❤️</span>
+            </p>
+        </section>
+
+        <section class="text-gray-900">
+            Try clicking the 👇 btn down below!
+        </section>
+    </main>
+
+    <footer>
+        <button class="mb-6 select-none text-indigo-900 dark:text-white focus:outline-none">
+            <svg class="inline-block cursor-pointer fill-current" width="24" height="24" viewBox="0 0 48 48" fill="none"
+                xmlns="http://www.w3.org/2000/svg" id="theme-switcher">
+                <path
+                    d="M22 41C32.4934 41 41 32.4934 41 22 41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z">
+                </path>
+            </svg>
+        </button>
+        <p class="text-white">
+            Made with ❤️ by
+            <a class="hover:underline" href="https://www.derpycoder.com">DerpyCoder</a>
+        </p>
+    </footer>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "snowtail",
+  "version": "0.0.1",
+  "description": "Starter for Rapid Theme Dev, using Snowpack & Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "init": "npx tailwindcss-cli@latest build -o tailwind.css",
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "deploy": "git subtree push --prefix build origin gh-pages"
+  },
+  "keywords": [
+    "starter",
+    "snowpack",
+    "tailwind",
+    "pagejs"
+  ],
+  "author": "DerpyCoder",
+  "license": "MIT",
+  "devDependencies": {
+    "snowpack": "^3.0.11"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.3.3"
+  }
+}

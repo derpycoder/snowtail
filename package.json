@@ -7,17 +7,17 @@
     "init": "npx tailwindcss-cli@latest build -o tailwind.css",
     "start": "snowpack dev",
     "build": "snowpack build",
-    "deploy": "git subtree push --prefix build origin gh-pages"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "starter",
     "snowpack",
-    "tailwind",
-    "pagejs"
+    "tailwind"
   ],
   "author": "DerpyCoder",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "snowpack": "^3.0.11"
   },
   "dependencies": {

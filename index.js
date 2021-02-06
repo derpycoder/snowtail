@@ -1,4 +1,4 @@
-import confetti from './_snowpack/pkg/canvas-confetti.js';
+import confetti from 'canvas-confetti';
 
 initTheme();
 

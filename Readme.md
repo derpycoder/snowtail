@@ -11,5 +11,5 @@ Snowtail is a starter template made using [Snowpack](https://www.snowpack.dev/) 
 1. Create new branch: `git checkout -b <branch-name>`
 1. Start the snowpack server: `npm start`
 
-## Blog Post:
+## Additional Post:
 [Snowpack: 5 Reasons it should be the Standard Build Tool for Front-End Web Dev](https://www.derpycoder.com/snowpack-5-reasons-it-should-be-the-standard-build-tool-for-front-end-web-dev/?utm_source=github&utm_medium=indirect&utm_campaign=snowpack&utm_content=snowtail-repo)

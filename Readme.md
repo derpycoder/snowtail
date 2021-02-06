@@ -1,11 +1,8 @@
 # SnowTail
 Snowtail is a starter template made using [Snowpack](https://www.snowpack.dev/) & [Tailwind](http://tailwindcss.com/), that can help speed up the theme development process.
 
-## Blog Post:
-[SnowTail: Snowpack & Tailwind Starter to Speed up Theme Dev](https://www.derpycoder.com/snowtail-snowpack-tailwind-starter-to-speed-up-theme-dev/)
-
 ## Demo:
-[SnowTail](https://www.abhijit-kar.com/snowtail/)
+[SnowTail: Snowpack & Tailwind Starter to Speed up Theme Dev](https://www.derpycoder.com/snowtail-snowpack-tailwind-starter-to-speed-up-theme-dev/#demo)
 
 ## How to Use?
 1. Click use template or use degit: `npx degit <repo-url>`

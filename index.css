@@ -4,4 +4,6 @@ body {
 
 .w-referral {
     width: 333.75px;
+    min-width: 333.75px;
+    max-width: 333.75px;
 }

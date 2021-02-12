@@ -7,9 +7,3 @@ body {
     min-width: 333.75px;
     max-width: 333.75px;
 }
-
-@media only screen and (min-width: 600px) {
-    #fork-btn {
-        display: block;
-    }
-}
